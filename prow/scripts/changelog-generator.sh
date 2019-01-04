@@ -18,6 +18,7 @@ function findLatestTag() {
 
 findLatestTag $1
 
+echo "Test #1"
 if [ "$PENULTIMATE" != "" ]; then
     echo $PENULTIMATE
 else
